@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@keyframes pulse-soft {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+  100% { transform: scale(1); }
+}
+
+@utility animate-pulse-soft {
+  animation: pulse-soft 2.5s ease-in-out infinite;
+}
+
+:root {
+  --brand-yellow: #ffd500;
+  --brand-black: #0f172a;
+  --brand-gray: #f4f4f5;
+}
