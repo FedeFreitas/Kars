@@ -1,5 +1,0 @@
-- apps/web/package.json                     # adicionadas deps chart.js e react-chartjs-2.
-- apps/web/src/services/clients.js          # getClientStats/getClientMonthlyStats helpers.
-- apps/web/src/app/(protected)/dashboard/page.jsx # KPIs clientes filtrados por data; gráfico Chart.js (ano vigente) ativos/inativos.
-- apps/web/src/app/(protected)/clientes/page.jsx # status com badge e botão ativar/inativar; filtro status; paginação; email só leitura; histórico de ativações.
-- apps/web/src/app/(protected)/usuarios/page.jsx # páginação, edição de email (único local), permissões, tabs.
